@@ -54,26 +54,6 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
-    {
-      id: 'blog_source_primary',
-      name: '博客主源 dpaste 5eVbp',
-      method: 'GET',
-      target: 'https://dpaste.org/5eVbp/raw',
-      tooltip: '主站 Worker 的主源',
-      statusPageLink: 'https://robo.dpdns.org',
-      expectedCodes: [200],
-      timeout: 10000,
-    },
-    {
-      id: 'blog_source_backup',
-      name: '博客备源 dpaste ogYyC',
-      method: 'GET',
-      target: 'https://dpaste.org/ogYyC/raw',
-      tooltip: '主站 Worker 的备源',
-      statusPageLink: 'https://robo.dpdns.org',
-      expectedCodes: [200],
-      timeout: 10000,
-    },
   ],
 }
 
